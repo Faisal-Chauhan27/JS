@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM Learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div >
+    <h1 id="title" class="heading">DOM learning on chai aur code <span style="display: none;"> test text</span>
+    </h1>
+    <h2 >Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
+    <h2 >Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
+    <h2 >Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
+    <p>Lorem ipsusm dolor sit amet, consectetur adipisicing elit. </p>
+    <input type="password" name="" id="">
+    <ul>
+        <li class="list-items">two </li>
+        <li class="list-items">three </li>
+        <li class="list-items">four </li>
+        <li class="list-items">one </li>
+    </ul>
+</div>
+</body>
+</html>
+
+<!-- to convert something to array use
+ Array.from(namejisseconvert karna hai)
+ -->
+<!-- 
+innerText => joh text visible hai screen peh bas woh dega
+textContent => give full text also the hidden text
+innerHtml =>text ke andr ya for eg h1 ke andr aur koi tag kuch hoga woh bhi 
+            dega sath meh
+-->
+
+<!--
+querySelector
+querySelector('#title') => id ke liya
+querySelector('.heading') => class ke liya(andr joh hai woh name hai class ya id ka )
+document.querySelector('input[type="password"]') this is for input 
+-->
+<!--
+querySelectorAll => nodeList hai woh array nhi
+it works as array but not full array it can do only limited things
+issme hame yeh batana hota hai konnsa element by Name[0].style.etc
+-->
