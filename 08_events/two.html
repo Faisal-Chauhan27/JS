@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code</title>
+</head>
+<body>
+    <h1>Chai aur Code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script >
+    const SayFaisal =function(){
+        console.log("Faisal")
+    }
+     
+    const ChangeText =function(){
+        document.querySelector('h1').innerHTML="Best Js Series"
+    }
+    
+   const SetTime= setTimeout(ChangeText,2000)
+
+   document.querySelector('#stop').
+   addEventListener('click',function(){
+    clearTimeout(SetTime) 
+    console.log("Stopped");
+   })
+
+//setTimeout=> matlab itne time ke baad yeh kaam hoga
+//clearTimeout=> Issme tujhe reference dena hai konsa waala SeTtimeout hai usska 
+</script>
+
+</html>
